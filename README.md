@@ -1,11 +1,33 @@
-<div align="center">
+# CONTRACTHUB — PT Pelindo Regional 2 Cirebon
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Panduan menjalankan aplikasi di server lokal (Windows, macOS, atau Linux) setelah mengunduh proyek.
 
-  <h1>Built with AI Studio</h2>
+## Prasyarat
+- **Node.js** versi 18 atau terbaru (`node -v`)
+- **npm** (`npm -v`)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Cara Menjalankan di Server Lokal
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. Ekstrak folder proyek hasil unduhan, lalu buka terminal di dalam folder proyek.
+2. Instal seluruh dependensi:
+   ```bash
+   npm install
+   ```
+3. Jalankan server pengembangan lokal (Express API + Vite):
+   ```bash
+   npm run dev
+   ```
+4. Buka browser dan akses:
+   ```
+   http://localhost:3000
+   ```
 
-</div>
+## Menjalankan Mode Produksi Lokal
+
+```bash
+npm run build
+npm start
+```
+
+- Data aplikasi tersimpan otomatis secara lokal di `data/contracthub-store.json`.
+- Untuk mengubah port default (`3000`), buat file `.env` dari `.env.example` dan tambahkan `PORT=3000` (atau port lain sesuai kebutuhan).

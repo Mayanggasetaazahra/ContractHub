@@ -1,0 +1,8 @@
+{
+  "name": "CONTRACTHUB — PT Pelindo Cirebon",
+  "description": "Sistem Manajemen Kontrak Terpadu & Legalitas Kepelabuhanan PT Pelabuhan Indonesia (Persero) Regional 2 Cirebon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
